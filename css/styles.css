@@ -1,0 +1,142 @@
+/* Color Palette
+# - color 1 #000000 Black
+# - color 2 #009CD9 Light Blue
+# - color 3 #FFFFFF White
+# - color 4 #FFDD00 Yellow
+# - color 5 #00D932 Green
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html, body {
+	background: #000000; /* Black */
+	margin: 0;
+}
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 100%;
+	margin: 0;
+	background: #009CD9;
+	line-height: 1.8;
+}
+p {
+	margin-bottom: 1em;
+    font-size: 1.05em;
+}
+a {
+	color: rgb(0, 0, 0);
+}
+/* Content Wrap
+------------------------------------*/
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+/* Contact Info
+------------------------------------*/
+.contact-info a{
+	padding: 10px;
+	display: inline-block;
+}
+/* Navigation
+------------------------------------*/
+nav {
+	background: white;
+	margin-bottom: 5px;
+}
+.navigation {
+	text-align: center;
+}
+.navigation a {
+	padding: 10px;
+	display: inline-block;
+}
+.fixed {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;                 
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    font-family: 'Roboto Mono', monospace;
+    background: #009CD9;
+    padding: 40px 20px;
+}
+footer {
+    font-family: 'Roboto Mono', monospace; 
+    background: #009CD9; 
+    padding: 25px 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: .85em;
+    line-height: 2em;
+    margin-top: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(0, 0, 0);
+}
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 42px;                       
+	font-weight: 700;
+}
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 26px;                       
+	font-weight: 600;
+	margin-top: 0;
+}
+h3 {
+	font-family: 'Merriweather', serif;    
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.profile-img{
+	border-radius: 50%;
+	/*width: 300px;
+	float: left;
+	margin-right: 30px;*/
+}
+.column-narrow{
+	width: 30%;
+	float: left;
+	padding-right: 3%;
+	min-height: 175px;
+}
+.column-wide{
+	width: 70%;
+	float: left;
+	min-height: 225px;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+	background: #FFDD00;
+}
+
+/* Education
+------------------------------------*/
+.education {
+	background: #00D932;
+}
+
+/* Image Background
+------------------------------------*/
+.image-bg {
+	background: url(https://picsum.photos/id/471/3264/1824); 
+}
+.alpha-bg {
+	background: linear-gradient(rgba(0, 255, 75, 0.815), rgba(0,255,75, 0.25))
+}
